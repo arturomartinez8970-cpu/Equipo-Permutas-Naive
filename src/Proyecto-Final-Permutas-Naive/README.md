@@ -27,11 +27,6 @@ python -m pip install --upgrade pip setuptools wheel pybind11
 python .\setup.py build_ext --inplace
 ```
 
-Problemas comunes
-- Error "'cl.exe' no se reconoce": no tiene MSVC en `PATH`. Abra el "Developer Command Prompt for VS" o instale Visual Studio Build Tools y luego compile desde ese prompt.
-- Error relacionado con `pybind11` o includes: asegúrese de haber ejecutado `pip install pybind11` en el mismo intérprete de Python.
-- Rutas con espacios: normalmente no es problema si está en la carpeta correcta; si falla, pruebe mover el proyecto a una ruta sin espacios.
-
 Uso después de compilar
 - Si la compilación fue correcta, en la carpeta aparecerá un archivo `busqueda*.pyd`. Puede ejecutar `main.py` que importa `busqueda` normalmente:
 
@@ -39,8 +34,9 @@ Uso después de compilar
 python .\main.py
 ```
 
+###Error de certificacion
 SSL y `certifi`
-- Si al ejecutar `main.py` obtiene errores de certificado SSL, agregue este snippet al inicio de `main.py` (antes de usar `Entrez`):
+- Si al ejecutar `main.py` obtiene errores de certificado SSL, agregue este snippet al inicio de `main.py` (luego de `import os`):
 
 ```python
 try:
@@ -66,21 +62,10 @@ Imagen (`adn.png`) — dónde cambiar la ruta
 img_adn = tk.PhotoImage(file="C:\\Users\\migue\\Desktop\\proyectoFinal2\\adn.png").subsample(20,20)
 ```
 
-- Opciones para hacer que el programa encuentre la imagen:
-	- Opción 1 (recomendada): copie su `adn.png` dentro de la carpeta del proyecto (la misma que contiene `main.py`) y cambie la línea anterior a:
+- Manera de hacer que el programa encuentre la imagen:
+	- Como adn ya esta en la carpeta del proyecto (la misma que contiene `main.py`) solo habra que cambiar la línea anterior a:
 
 		```python
 		img_adn = tk.PhotoImage(file="adn.png").subsample(20,20)
 		```
-
-	- Opción 2: sustituya la ruta absoluta por la ruta correcta donde está la imagen en su equipo. Use doble backslash `\\` en Windows o una cadena raw `r"C:\path\to\adn.png"`.
-
-		```python
-		img_adn = tk.PhotoImage(file=r"C:\ruta\correcta\a\adn.png").subsample(20,20)
-		```
-
-	- Opción 3: si no quiere usar imagen, puede dejar un placeholder (imagen vacía). El programa maneja un fallback si no existe la imagen.
-
-Consejo rápido
-- Si no está seguro de la ruta, abra el Explorador de Windows, vaya al archivo `adn.png`, haga click derecho → Propiedades → Copiar la ruta completa y péguela en el código usando `r"..."`.
 
