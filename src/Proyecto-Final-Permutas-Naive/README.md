@@ -92,3 +92,17 @@ img_adn = tk.PhotoImage(file="C:\\Users\\migue\\Desktop\\proyectoFinal2\\adn.png
 - Al darles click se muestran las permutas:
 
   <img width="370" height="267" alt="image" src="https://github.com/arturomartinez8970-cpu/Equipo-Permutas-Naive/blob/main/src/Proyecto-Final-Permutas-Naive/img/Captura%20de%20pantalla%202025-11-25%20032813.png?raw=true" />
+
+- Puedes darle click a la permuta que quieras para buscar una permuta en la secuencia de ADN:
+
+  <img width="370" height="267" alt="image" src="https://github.com/arturomartinez8970-cpu/Equipo-Permutas-Naive/blob/main/src/Proyecto-Final-Permutas-Naive/img/Captura%20de%20pantalla%202025-11-25%20032821.png?raw=true" />
+
+- Al darle click aparecerá en una nueva ventana la secuencia de ADN con texto subrayado donde encontró dicha permuta o patron de adn:
+
+  <img width="370" height="267" alt="image" src="https://github.com/arturomartinez8970-cpu/Equipo-Permutas-Naive/blob/main/src/Proyecto-Final-Permutas-Naive/img/Captura%20de%20pantalla%202025-11-25%20032838.png?raw=true" />
+
+- Y la información en la tabla de patrones cambiara a los resultados que obtuvo la búsqueda:
+
+  <img width="370" height="267" alt="image" src="https://github.com/arturomartinez8970-cpu/Equipo-Permutas-Naive/blob/main/src/Proyecto-Final-Permutas-Naive/img/Captura%20de%20pantalla%202025-11-25%20032848.png?raw=true" />
+
+  - Fin del algoritmo
