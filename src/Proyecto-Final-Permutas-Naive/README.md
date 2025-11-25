@@ -68,4 +68,6 @@ img_adn = tk.PhotoImage(file="C:\\Users\\migue\\Desktop\\proyectoFinal2\\adn.png
 		```python
 		img_adn = tk.PhotoImage(file="adn.png").subsample(20,20)
 		```
+# Como usarlo:
 
+- Interfaz inicial:
