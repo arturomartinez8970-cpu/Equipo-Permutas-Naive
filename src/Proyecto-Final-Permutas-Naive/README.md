@@ -73,4 +73,6 @@ img_adn = tk.PhotoImage(file="C:\\Users\\migue\\Desktop\\proyectoFinal2\\adn.png
 - Interfaz inicial:
 
 	<img width="370" height="267" alt="image" src="https://github.com/user-attachments/assets/fac8f577-8808-41d5-b1fc-8585b31c5fe0" />
+- Ingresar un patron:
 
+  	<img width="370" height="267" alt="image" src="[https://github.com/user-attachments/assets/fac8f577-8808-41d5-b1fc-8585b31c5fe0](https://github.com/arturomartinez8970-cpu/Equipo-Permutas-Naive/blob/main/src/Proyecto-Final-Permutas-Naive/img/Captura%20de%20pantalla%202025-11-25%20032741.png?raw=true)" />
