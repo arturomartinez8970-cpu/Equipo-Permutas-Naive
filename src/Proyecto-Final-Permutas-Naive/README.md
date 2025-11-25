@@ -71,5 +71,6 @@ img_adn = tk.PhotoImage(file="C:\\Users\\migue\\Desktop\\proyectoFinal2\\adn.png
 # Como usarlo:
 
 - Interfaz inicial:
-	![image alt](<img width="370" height="267" alt="image" src="https://github.com/user-attachments/assets/fac8f577-8808-41d5-b1fc-8585b31c5fe0" />
-)
+
+	<img width="370" height="267" alt="image" src="https://github.com/user-attachments/assets/fac8f577-8808-41d5-b1fc-8585b31c5fe0" />
+
