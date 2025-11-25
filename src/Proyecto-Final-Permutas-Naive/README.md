@@ -76,3 +76,19 @@ img_adn = tk.PhotoImage(file="C:\\Users\\migue\\Desktop\\proyectoFinal2\\adn.png
 - Ingresar un patron:
 
   	<img width="370" height="267" alt="image" src="https://github.com/arturomartinez8970-cpu/Equipo-Permutas-Naive/blob/main/src/Proyecto-Final-Permutas-Naive/img/Captura%20de%20pantalla%202025-11-25%20032741.png?raw=true" />
+
+- Primer patron guardado:
+
+  <img width="370" height="267" alt="image" src="https://github.com/arturomartinez8970-cpu/Equipo-Permutas-Naive/blob/main/src/Proyecto-Final-Permutas-Naive/img/Captura%20de%20pantalla%202025-11-25%20032748.png?raw=true" />
+
+- El programa no te deja hacer permutas hasta tener 3 patrones guardados:
+
+  <img width="370" height="267" alt="image" src="https://github.com/arturomartinez8970-cpu/Equipo-Permutas-Naive/blob/main/src/Proyecto-Final-Permutas-Naive/img/Captura%20de%20pantalla%202025-11-25%20032757.png?raw=true" />
+
+- Después de presionar el botón de generar permutas se agregan símbolos de más a las cadenas de ADN:
+
+  <img width="370" height="267" alt="image" src="https://github.com/arturomartinez8970-cpu/Equipo-Permutas-Naive/blob/main/src/Proyecto-Final-Permutas-Naive/img/Captura%20de%20pantalla%202025-11-25%20032805.png?raw=true" />
+
+- Al darles click se muestran las permutas:
+
+  <img width="370" height="267" alt="image" src="https://github.com/arturomartinez8970-cpu/Equipo-Permutas-Naive/blob/main/src/Proyecto-Final-Permutas-Naive/img/Captura%20de%20pantalla%202025-11-25%20032813.png?raw=true" />
