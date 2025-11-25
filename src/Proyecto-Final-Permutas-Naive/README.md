@@ -34,7 +34,7 @@ Uso después de compilar
 python .\main.py
 ```
 
-###Error de certificacion
+### Error de certificacion
 SSL y `certifi`
 - Si al ejecutar `main.py` obtiene errores de certificado SSL, agregue este snippet al inicio de `main.py` (luego de `import os`):
 
