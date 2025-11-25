@@ -34,7 +34,7 @@ Uso después de compilar
 python .\main.py
 ```
 
-### Error de certificacion
+## Error de certificacion
 SSL y `certifi`
 - Si al ejecutar `main.py` obtiene errores de certificado SSL, agregue este snippet al inicio de `main.py` (luego de `import os`):
 
@@ -55,7 +55,7 @@ except Exception:
 python -m pip install certifi
 ```
 
-### Problema de imagen (`adn.png`) 
+## Problema de imagen (`adn.png`) 
 — dónde cambiar la ruta
 - El archivo `main.py` carga una imagen con `tk.PhotoImage(...)`. Busque la línea que asigna `img_adn`, por ejemplo:
 
