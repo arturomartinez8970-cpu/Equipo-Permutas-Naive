@@ -55,14 +55,14 @@ except Exception:
 python -m pip install certifi
 ```
 
-Imagen (`adn.png`) — dónde cambiar la ruta
+### Problema de imagen (`adn.png`) 
+— dónde cambiar la ruta
 - El archivo `main.py` carga una imagen con `tk.PhotoImage(...)`. Busque la línea que asigna `img_adn`, por ejemplo:
 
 ```python
 img_adn = tk.PhotoImage(file="C:\\Users\\migue\\Desktop\\proyectoFinal2\\adn.png").subsample(20,20)
 ```
-
-- Manera de hacer que el programa encuentre la imagen:
+- Como hacer que el programa encuentre la imagen:
 	- Como adn ya esta en la carpeta del proyecto (la misma que contiene `main.py`) solo habra que cambiar la línea anterior a:
 
 		```python
